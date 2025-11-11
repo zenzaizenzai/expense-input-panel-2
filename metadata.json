@@ -1,0 +1,5 @@
+{
+  "name": "経費入力パネル (Expense Input Panel)",
+  "description": "A simple web application to quickly input expenses by category and generate a copy-paste friendly data sheet for spreadsheets.",
+  "requestFramePermissions": []
+}
