@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+	// ★★★ この行を追加 ★★★
+    base: '/expense-input-panel-2/', 
+    // ★★★★★★★★★★★★★★★★
       server: {
         port: 3000,
         host: '0.0.0.0',
